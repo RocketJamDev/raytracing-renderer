@@ -120,6 +120,7 @@ inline void vec3::make_unit_vector()
 	e[2] *= k;
 }
 
-inline vec3 unit_vector(vec3 v) {
+inline vec3 unit_vector(vec3 v)
+{
 	return v / v.length();
 }
